@@ -11,7 +11,6 @@ class Fractional:
         return Fractional(num, denom)
     
     def __mul__(self, other: 'Fractional') -> 'Fractional':
-        # return self.x * other.x, self.y * other.y
         num = self.x * other.x
         denom = self.y * other.y
         return Fractional(num, denom)
